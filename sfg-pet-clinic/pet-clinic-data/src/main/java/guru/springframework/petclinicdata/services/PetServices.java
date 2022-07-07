@@ -1,4 +1,4 @@
-package services;
+package guru.springframework.petclinicdata.services;
 
 import dee.springframework.sfgpetclinic.model.Pet;
 

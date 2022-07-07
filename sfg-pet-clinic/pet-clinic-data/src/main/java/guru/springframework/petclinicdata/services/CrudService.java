@@ -1,8 +1,9 @@
+package guru.springframework.petclinicdata.services;
 import java.util.Set;
 
 import dee.springframework.sfgpetclinic.*;
 
-public class CrudService <T, ID> {
+public interface CrudService <T, ID> {
     Set<T> findAll();
 
     T findById(ID id);
